@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-import { Layout, Content } from "react-mdl";
-import Homepage from "./screens/Homepage/Homepage";
-import AboutUs from "./screens/AboutUs/AboutUs";
-import Projects from "./screens/Projects/Projects";
-import Contact from "./screens/Contact/Contact";
+import { Layout } from "react-mdl";
 import NavBar from "./component/NavBar";
 import Main from "./Main";
 import "./App.css";

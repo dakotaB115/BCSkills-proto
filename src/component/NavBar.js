@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Navigation } from "react-mdl";
+import Interactive from "react-interactive";
 import { HashLink as Link } from "react-router-hash-link";
+
 import "./NavBar.scss";
 
 export default class NavBar extends Component {
@@ -8,22 +10,31 @@ export default class NavBar extends Component {
     return (
       <div className="navbar-header">
         <div className="navbar-content">
-          <div className="navbar-title">
-            <Link to="/" style={{ textDecoration: "none", color: "#ffcd00" }}>
-              {`<BCSkills>`}
-            </Link>
+          <div>
+            <Interactive as={Link} to="/" className="navbar-title">
+              {`<`}
+              <span className="navbar-BC">BC</span>
+              {`SKILLS>`}
+            </Interactive>
           </div>
           <Navigation className="navbar-elements">
-            <Link smooth to="/">
+            <Interactive className="navbar-items" as={Link} smooth to="/">
               Home
-            </Link>
-            <Link smooth to="/aboutus">
-              About Us
-            </Link>
-            <Link smooth to="/projects">
+            </Interactive>
+            <Interactive className="navbar-items" as={Link} smooth to="/about">
+              About
+            </Interactive>
+            <Interactive
+              className="navbar-items"
+              as={Link}
+              smooth
+              to="/projects"
+            >
               Projects
-            </Link>
-            <Link to="/contact">Contact</Link>
+            </Interactive>
+            <Interactive className="navbar-items" as={Link} to="/contact">
+              Contact
+            </Interactive>
           </Navigation>
         </div>
       </div>

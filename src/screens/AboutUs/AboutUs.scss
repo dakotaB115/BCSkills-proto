@@ -1,10 +1,57 @@
 .about-container {
-  background-color: red;
-  height: 728px;
-  > * {
-    padding-right: 32px;
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
+  background-color: white;
+  .about-header {
+    display: flex;
+    background-color: rgb(88, 88, 88);
+    height: 200px;
+    align-items: center;
+    .about-header-contents {
+      margin-left: 80px;
+      background-color: rgb(88, 88, 88);
+      .about-title {
+        font-weight: 400;
+        font-size: 50px;
+        color: #ffcd00;
+      }
+      .about-description {
+        padding-top: 60px;
+        font-weight: 100;
+        font-size: 25px;
+        color: #ffcd00;
+      }
+    }
+  }
+  .about-mission {
+    display: flex;
+    height: 225px;
+    background-color: white;
+    .about-mission-content {
+      margin-top: 75px;
+      margin-left: 80px;
+      margin-right: 80px;
+      .about-mission-title {
+        font-size: 50px;
+        font-weight: 300;
+        color: #9e0000;
+      }
+      .about-mission-statement {
+        padding-top: 50px;
+        line-height: 32px;
+        font-size: 30px;
+        font-weight: 100;
+      }
+    }
+  }
+  .about-container-img {
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    .about-img {
+      border-radius: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+      height: 70%;
+    }
   }
 }

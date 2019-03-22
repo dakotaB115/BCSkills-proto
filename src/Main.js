@@ -10,7 +10,7 @@ export default class Main extends Component {
     return (
       <Switch>
         <Route exact path="/" component={Homepage} />
-        <Route path="/aboutus" component={AboutUs} />
+        <Route path="/about" component={AboutUs} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
       </Switch>

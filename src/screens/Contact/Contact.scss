@@ -1,0 +1,10 @@
+.contact-container {
+  background-color: blue;
+  height: 728px;
+  > * {
+    padding-right: 32px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+  }
+}

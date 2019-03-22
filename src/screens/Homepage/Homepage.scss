@@ -1,0 +1,23 @@
+.homepage-wrapper {
+  background-color: rgb(58, 58, 58);
+  height: 728px;
+  overflow: auto;
+  .homepage-contents {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 200px;
+    text-align: center;
+    .homepage-header {
+      color: #ffcd00;
+      font-size: 50px;
+      font-weight: 500;
+    }
+
+    .homepage-statement {
+      margin-top: 50px;
+      color: #ffcd00;
+      font-size: 20px;
+      font-weight: 200;
+    }
+  }
+}

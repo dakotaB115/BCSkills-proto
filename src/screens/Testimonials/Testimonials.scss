@@ -1,0 +1,34 @@
+.background {
+  background-color: #595959;
+  height: auto;
+  .header {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    width: flex;
+    height: auto;
+    color: #f9cc47;
+    font-size: 100px;
+  }
+  .class-pic {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: flex;
+    > * {
+      border-radius: 5px;
+      width: 700px;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .row {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    > * {
+      display: inline-block;
+    }
+  }
+}

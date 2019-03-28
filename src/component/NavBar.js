@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Navigation } from "react-mdl";
-import Interactive from "react-interactive";
-import { HashLink as Link } from "react-router-hash-link";
+//import { Link } from "react-router-dom";
 
 import "./NavBar.scss";
 
@@ -11,33 +10,41 @@ export default class NavBar extends Component {
       <div className="navbar-header">
         <div className="navbar-content">
           <div>
-            <Interactive as={Link} to="/" className="navbar-title">
+            <a href="#home" className="navbar-title">
               {`<`}
               <span className="navbar-BC">BC</span>
               {`SKILLS>`}
-            </Interactive>
+            </a>
           </div>
           <Navigation className="navbar-elements">
-            <Interactive className="navbar-items" as={Link} smooth to="/">
+            <a className="navbar-items" href="#home">
               Home
-            </Interactive>
-            <Interactive className="navbar-items" as={Link} smooth to="/about">
+            </a>
+            <a className="navbar-items" href="#about">
               About
-            </Interactive>
-            <Interactive
-              className="navbar-items"
-              as={Link}
-              smooth
-              to="/projects"
-            >
-              Projects
-            </Interactive>
-            <Interactive className="navbar-items" as={Link} to="/contact">
+            </a>
+            <a className="navbar-items" href="#testimonial">
+              Testimonials
+            </a>
+            <a className="navbar-items" href="#contact">
               Contact
-            </Interactive>
+            </a>
           </Navigation>
         </div>
       </div>
     );
   }
 }
+
+/*
+<Link
+  className="navbar-items"
+  to="/projects"
+>
+  Projects
+</Link>
+
+<a className="navbar-items" href="#team">
+              Our Team
+            </a>
+*/

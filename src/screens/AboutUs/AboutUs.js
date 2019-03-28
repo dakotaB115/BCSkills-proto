@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BCSkills from "./img/20190322_112149.jpg";
+import BCSkills from "./img/BCSkillsEID.jpg";
 import "./AboutUs.scss";
 
 export default class AboutUs extends Component {

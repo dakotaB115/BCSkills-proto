@@ -1,0 +1,105 @@
+.container {
+  position: relative;
+  width: auto;
+  height: 340px;
+  margin-top: 10px;
+  background-color: black;
+  display: inline-flex;
+  border-radius: 10px;
+  .left-side {
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    float: left;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    .logo {
+      width: flex;
+      > * {
+        border-radius: 20px;
+        width: 150px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    .bio {
+      display: flex;
+      padding-top: 20px;
+      color: rgb(167, 167, 167);
+    }
+  }
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    .bio-pic {
+      margin: 5px;
+      display: block;
+      > * {
+        border-radius: 20px;
+        width: 260px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    }
+    .name-age {
+      width: flex;
+      font-weight: 500;
+      text-align: end;
+      padding-right: 5px;
+      font-size: 20px;
+      font-weight: 300;
+      float: right;
+      color: white;
+      > * {
+        font-size: 25px;
+        font-weight: 500;
+        color: #821f41;
+      }
+    }
+    .location {
+      padding-top: 5px;
+      text-align: end;
+      padding-right: 5px;
+      float: right;
+      color: white;
+      font-size: 15px;
+      > * {
+        font-size: 17px;
+      }
+    }
+  }
+  .bottom {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+    .twitter-handles {
+      margin-left: 5px;
+      display: flex;
+      > * {
+        text-align: left;
+        padding-right: 5px;
+        font-size: 10px;
+        font-weight: 200;
+        text-decoration: none;
+        color: white;
+      }
+    }
+    .time {
+      margin-right: 5px;
+      justify-content: flex-end;
+      display: block;
+      text-align: end;
+      float: right;
+      color: white;
+    }
+  }
+}

@@ -10,7 +10,11 @@ export default class AboutUs extends Component {
           <div className="about-header-contents">
             <div className="about-title">About Us</div>
             <div className="about-description">
-              Bibendum potenti iaculis hendrerit
+              At BC Skills, we believe EVERYONE has the capacity to be an
+              innovator. We exist to provide opportunities for our students and
+              our community to do just that. With an emphasis on computer
+              science, BC Skills is a place where high-demand skills are gained
+              and connected to industry, entrepreneurship, and higher-education.
             </div>
           </div>
         </div>
@@ -19,11 +23,13 @@ export default class AboutUs extends Component {
           <div className="about-mission-content">
             <div className="about-mission-title">Mission statement</div>
             <div className="about-mission-statement">
-              Lorem ipsum vulputate egestas lectus ultricies sollicitudin
-              curabitur pretium vehicula congue, aliquam risus curae vehicula
-              tristique sapien facilisis sem luctus quisque phasellus,
-              consectetur donec sollicitudin nec lorem tempor arcu mollis
-              taciti.
+              We offer EDUCATION opportunities beginning as early as 4th grade
+              and continuing throughout adulthood. We facilitate opportunities
+              for INNOVATION including partnerships with both public and private
+              sector as well as the research and development of original
+              products. We DEPLOY our people both locally and nationally as
+              app/software/web developers, to higher-education, and as
+              ENTREPRENEURS.
             </div>
           </div>
         </div>

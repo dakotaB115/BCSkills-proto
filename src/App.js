@@ -13,18 +13,18 @@ import "./App.scss";
 class App extends Component {
   render() {
     return (
-      <Layout>
+      <Layout className="layout">
         <NavBar />
         <section id="home" className="home">
           <Homepage />
         </section>
-        <section id="about">
+        <section id="about" className="about">
           <AboutUs />
         </section>
         <section id="testimonial" className="testimonial">
           <Testimonial />
         </section>
-        <section id="contact">
+        <section id="contact" className="contact">
           <Contact />
         </section>
       </Layout>

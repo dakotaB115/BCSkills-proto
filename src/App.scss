@@ -1,3 +1,21 @@
-.section {
-  margin-top: 70px;
+.layout {
+  //background-color: #595959;
+  background-color: white;
+  .home {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+  }
+
+  .about {
+  }
+
+  .testimonial {
+    margin-top: 80px;
+  }
+
+  .contact {
+  }
 }

@@ -1,0 +1,284 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "/Users/dbrown/Desktop/web/bcskillsproto",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2019-03-29 08:53:08",
+            "filesum": 42,
+            "codesum": 21441,
+            "commentsum": 36,
+            "blanksum": 35,
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 20581,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "filename": "public/favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 13,
+                    "filename": "public/index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "public/manifest.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 30,
+                    "comment": 7,
+                    "filename": "src/App.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 1,
+                    "filename": "src/App.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 34,
+                    "comment": 13,
+                    "filename": "src/component/NavBar.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 45,
+                    "comment": 1,
+                    "filename": "src/component/NavBar.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "src/component/PersonCard.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 105,
+                    "comment": 0,
+                    "filename": "src/component/PersonCard.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "src/component/TeamCard.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "src/component/TeamCard.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "src/Main.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "src/screens/AboutUs/AboutUs.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "src/screens/AboutUs/AboutUs.scss"
+                },
+                {
+                    "filename": "src/screens/AboutUs/img/20190322_112149.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/screens/AboutUs/img/BCSkillsEID.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/screens/AboutUs/img/classphoto.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src/screens/Contact/Contact.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src/screens/Contact/Contact.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "src/screens/Homepage/Homepage.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "src/screens/Homepage/Homepage.scss"
+                },
+                {
+                    "filename": "src/screens/Homepage/img/classpic.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/screens/Homepage/img/laptop-coding.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/screens/Homepage/img/laptop-coding.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src/screens/Our Team/OurTeam.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/screens/Our Team/OurTeam.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src/screens/Projects/Projects.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src/screens/Projects/Projects.scss"
+                },
+                {
+                    "filename": "src/screens/Testimonials/img/alex.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/screens/Testimonials/img/everyone.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/screens/Testimonials/img/jacob.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/screens/Testimonials/img/jamie.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/screens/Testimonials/img/Katelyn.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/screens/Testimonials/img/logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/screens/Testimonials/img/Matthew.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/screens/Testimonials/img/spencer.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 134,
+                    "comment": 0,
+                    "filename": "src/screens/Testimonials/Testimonials.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "src/screens/Testimonials/Testimonials.scss"
+                }
+            ]
+        }
+    ]
+}

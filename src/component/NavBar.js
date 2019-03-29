@@ -35,16 +35,3 @@ export default class NavBar extends Component {
     );
   }
 }
-
-/*
-<Link
-  className="navbar-items"
-  to="/projects"
->
-  Projects
-</Link>
-
-<a className="navbar-items" href="#team">
-              Our Team
-            </a>
-*/

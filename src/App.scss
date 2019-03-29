@@ -1,21 +1,18 @@
+* {
+  @import url("https://fonts.googleapis.com/css?family=Roboto");
+  font-family: "Roboto", sans-serif;
+}
+
 .layout {
-  //background-color: #595959;
-  background-color: white;
+  background-color: #d5d5d5;
   .home {
-    margin-top: 70px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     padding: 0;
   }
-
   .about {
-  }
-
-  .testimonial {
-    margin-top: 80px;
-  }
-
-  .contact {
+    top: -250px;
   }
 }

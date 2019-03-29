@@ -1,10 +1,28 @@
 .contact-container {
-  margin-top: 50px;
+  margin: 20px;
   height: auto;
-  > * {
-    padding-right: 32px;
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
+  flex-direction: column;
+  display: flex;
+  .contact {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #232528ca;
+  }
+  .contact-top {
+    padding-bottom: 10px;
+    flex-direction: row;
+    display: flex;
+    > * {
+      color: #232528ab;
+      padding-right: 10px;
+    }
+  }
+  .contact-bottom {
+    color: #232528ab;
+    flex-direction: row;
+    display: flex;
+    > * {
+      padding-right: 10px;
+    }
   }
 }

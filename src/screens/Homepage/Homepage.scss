@@ -1,6 +1,6 @@
 .homepage-wrapper {
   background-color: rgb(58, 58, 58);
-  height: 780px;
+  height: auto;
   overflow: hidden;
   .homepage-contents {
     position: relative;
@@ -13,7 +13,7 @@
     }
     .homepage-text {
       position: absolute;
-      top: 35%;
+      top: 40%;
       width: 100%;
       z-index: 5;
       text-align: center;

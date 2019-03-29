@@ -5,6 +5,12 @@ import { Navigation } from "react-mdl";
 import "./NavBar.scss";
 
 export default class NavBar extends Component {
+
+  scrollTo(name) {
+      const element = document.getElementById(name)
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   render() {
     return (
       <div className="navbar-header">
@@ -17,16 +23,16 @@ export default class NavBar extends Component {
             </a>
           </div>
           <Navigation className="navbar-elements">
-            <a className="navbar-items" href="#home">
+            <a className="navbar-items" onClick={ () => this.scrollTo("home")}>
               Home
             </a>
-            <a className="navbar-items" href="#about">
+            <a className="navbar-items" onClick={() => this.scrollTo("about-anchor")}>
               About
             </a>
-            <a className="navbar-items" href="#testimonial">
+            <a className="navbar-items" onClick={() => this.scrollTo("testimonial")}>
               Testimonials
             </a>
-            <a className="navbar-items" href="#contact">
+            <a className="navbar-items" onClick={() => this.scrollTo("contact")}>
               Contact
             </a>
           </Navigation>

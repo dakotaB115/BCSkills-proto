@@ -6,9 +6,10 @@ export default class AboutUs extends Component {
   render() {
     return (
       <div className="about-container">
-        <div className="about-header">
+        <div className="about-header" style={{position: "relative"}}>
           <div className="about-header-contents">
             <div className="about-title">About Us</div>
+            <div id="about-anchor" style={{position: "absolute", top: -50, right: "50%"}} />
             <div className="about-description">
               At <span>BCSKILLS</span>, we believe <span>EVERYONE</span> has the
               capacity to be an innovator. We exist to provide opportunities for

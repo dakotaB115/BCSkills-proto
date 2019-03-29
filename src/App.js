@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <Layout className="layout">
-        <NavBar />
+        <NavBar className="nav-bar" />
         <section id="home" className="home">
           <Homepage />
         </section>

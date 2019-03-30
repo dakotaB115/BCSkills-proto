@@ -7,8 +7,8 @@ import "./NavBar.scss";
 export default class NavBar extends Component {
 
   scrollTo(name) {
-      const element = document.getElementById(name)
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const element = document.getElementById(name)
+    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   render() {

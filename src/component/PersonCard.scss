@@ -1,104 +1,215 @@
-.container {
-  position: relative;
-  width: auto;
-  height: 340px;
-  margin-top: 10px;
+
+
+.person-card-container {
+  display: flex;
+  flex-direction: row;
   background-color: black;
-  display: inline-flex;
+  max-width: 550px;
+  min-height: 350px;
   border-radius: 10px;
-  .left-side {
-    padding-top: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    position: relative;
-    float: left;
-    width: 200px;
+    .left-container {
+      flex: 1;
+      margin: 5px 0px;
+      margin-left: 10px;
+      flex-direction: column;
+      .logo-picture-container {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 5px;
+        background-color: black;
+        .logo-picture {
+          width: flex;
+          height: 100px;
+        }
+      }
+      .bio-text-container {
+        color: rgb(167, 167, 167);
+        font-size: 14px;
+        height: 200px;
+        max-height: 200px;
+        overflow: auto;
+      }
+
+      .twitter-links-container {
+        display: flex;
+        height: 35px;
+        justify-content: end;
+        align-items: flex-end;
+      }
+    }
+    .right-container {
+      flex: 2;
+      margin: 5px 0px;
+      margin-right: 10px;
+      flex-direction: column;
+      background-color: rebeccapurple;
+      .name-container {
+        text-align: end;
+      }
+      .bio-picture-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 250px;
+          height: auto;
+        }
+      }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .person-card-container { 
+    min-height: 350px !important;
+    min-width: 550px !important;
     display: flex;
-    flex-direction: column;
-    .logo {
-      width: flex;
-      > * {
-        border-radius: 20px;
-        width: 150px;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    flex-direction: column-reverse;
+    .left-container {
+      overflow: auto;
+      max-height: 150px;
+      margin: 0px 0px !important;
+      .bio-text-container {
+        height: 100px;
       }
     }
-    .bio {
-      display: flex;
-      padding-top: 20px;
-      color: rgb(167, 167, 167);
-    }
-  }
-  .right-side {
-    display: flex;
-    flex-direction: column;
-    .bio-pic {
-      margin: 5px;
-      display: block;
-      > * {
-        border-radius: 20px;
-        width: 260px;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-      }
-    }
-    .name-age {
-      width: flex;
-      font-weight: 500;
-      text-align: end;
-      padding-right: 5px;
-      font-size: 20px;
-      font-weight: 300;
-      float: right;
-      color: white;
-      > * {
-        font-size: 25px;
-        font-weight: 500;
-        color: #821f41;
-      }
-    }
-    .location {
-      padding-top: 5px;
-      text-align: end;
-      padding-right: 5px;
-      float: right;
-      color: white;
-      font-size: 15px;
-      > * {
-        font-size: 17px;
-      }
-    }
-  }
-  .bottom {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 5px;
-    display: block;
-    width: 100%;
-    .twitter-handles {
-      margin-left: 5px;
-      display: flex;
-      > * {
-        text-align: left;
-        padding-right: 5px;
-        font-size: 10px;
-        font-weight: 200;
-        color: white;
-      }
-    }
-    .time {
-      margin-right: 5px;
-      justify-content: flex-end;
-      display: block;
-      text-align: end;
-      float: right;
-      color: white;
+    .right-container {
+
+      min-height: 200px;
+      margin: 0px 0px !important;
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .container {
+//   position: relative;
+//   width: auto;
+//   height: 340px;
+//   margin-top: 10px;
+//   background-color: black;
+//   display: inline-flex;
+//   border-radius: 10px;
+//   .left-side {
+//     padding-top: 20px;
+//     padding-left: 5px;
+//     padding-right: 5px;
+//     padding-bottom: 5px;
+//     position: relative;
+//     float: left;
+//     width: 200px;
+//     display: flex;
+//     flex-direction: column;
+//     .logo {
+//       width: flex;
+//       > * {
+//         border-radius: 20px;
+//         width: 150px;
+//         height: auto;
+//         display: block;
+//         margin-left: auto;
+//         margin-right: auto;
+//       }
+//     }
+//     .bio {
+//       display: flex;
+//       padding-top: 20px;
+//       color: rgb(167, 167, 167);
+//     }
+//   }
+//   .right-side {
+//     display: flex;
+//     flex-direction: column;
+//     .bio-pic {
+//       margin: 5px;
+//       display: block;
+//       > * {
+//         border-radius: 20px;
+//         width: 260px;
+//         height: auto;
+//         margin-left: auto;
+//         margin-right: auto;
+//         display: block;
+//       }
+//     }
+//     .name-age {
+//       width: flex;
+//       font-weight: 500;
+//       text-align: end;
+//       padding-right: 5px;
+//       font-size: 20px;
+//       font-weight: 300;
+//       float: right;
+//       color: white;
+//       > * {
+//         font-size: 25px;
+//         font-weight: 500;
+//         color: #821f41;
+//       }
+//     }
+//     .location {
+//       padding-top: 5px;
+//       text-align: end;
+//       padding-right: 5px;
+//       float: right;
+//       color: white;
+//       font-size: 15px;
+//       > * {
+//         font-size: 17px;
+//       }
+//     }
+//   }
+//   .bottom {
+//     position: absolute;
+//     bottom: 0;
+//     margin-bottom: 5px;
+//     display: block;
+//     width: 100%;
+//     .twitter-handles {
+//       margin-left: 5px;
+//       display: flex;
+//       > * {
+//         text-align: left;
+//         padding-right: 5px;
+//         font-size: 10px;
+//         font-weight: 200;
+//         color: white;
+//       }
+//     }
+//     .time {
+//       margin-right: 5px;
+//       justify-content: flex-end;
+//       display: block;
+//       text-align: end;
+//       float: right;
+//       color: white;
+//     }
+//   }
+// }

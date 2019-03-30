@@ -47,9 +47,11 @@ const PersonCard = ({ bio, bioPicture, firstName, lastName, age, county, time}) 
 
       </div>
       <div className="right-container">
+
         <div className="bio-picture-container">
           <img src={require(`../assets/img/${bioPicture}.png`)} alt={bioPicture} />
         </div>
+
         <div className="name-container">
         <div>{`${firstName} ${lastName}, ${age}`}</div>
 
